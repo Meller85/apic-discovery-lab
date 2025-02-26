@@ -25,7 +25,7 @@ jobs:
         api_host: ${{ us-east-a.apiconnect.automation.ibm.com}}
         platform_api_prefix: ${{ env.PLATFORM_API_PREFIX }}
         provider_org: ${{ env.PROVIDER_ORG }}
-        api_key: ${{ secrets.apicApikey }}
+        api_key: ${{ secrets.a4771e35-7d4b-4cd4-935d-83ad5f8e3c58 }}
         api_files: ${{ env.API_FILES }}
         api_folders: ${{ env.API_FOLDERS }}
         resync_check: ${{ true }}
